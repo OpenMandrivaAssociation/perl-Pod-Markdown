@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Markdown
-%define upstream_version 1.100860
+%define upstream_version 1.103491
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
