@@ -1,9 +1,9 @@
 %define upstream_name    Pod-Markdown
-%define upstream_version 1.103491
+%define upstream_version 1.110730
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Convert POD to Markdown
 License:    GPL+ or Artistic
