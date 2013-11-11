@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Markdown
-%define upstream_version 1.322
+%define upstream_version 1.401
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.322
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Convert POD to Markdown
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Markdown-1.322.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Markdown-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -66,4 +66,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Mar 29 2010 cpan2dist 1.100860-1mdv
 - initial mdv release, generated with cpan2dist
+
 
