@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Markdown
-%define upstream_version 1.401
+%define upstream_version 2.000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -66,5 +66,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Mon Mar 29 2010 cpan2dist 1.100860-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
